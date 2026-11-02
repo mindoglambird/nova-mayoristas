@@ -1,0 +1,221 @@
+<!doctype html><html lang="es-EC"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NØVA · Flavor Beyond — Distribución mayorista Ecuador</title>
+<meta name="description" content="NØVA: portafolio de dispositivos desechables de nicotina para mayoristas y retailers autorizados en Ecuador. Solo comercios, mayores de 18 años.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07081a;--bg2:#0d0f2a;--card:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--tx:#e9eaf6;--mu:#9a9dc0;--c:#3fd8ff;--p:#b44dff;--k:#ff5cc8;--g:linear-gradient(90deg,#3fd8ff,#8a5cff 50%,#ff5cc8)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;overflow-x:hidden}
+body.locked{overflow:hidden}
+h1,h2,h3,.brand{font-family:"Space Grotesk",sans-serif;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
+.wrap{width:min(1180px,92%);margin:auto}
+.grad{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{font-size:.75rem;letter-spacing:.28em;text-transform:uppercase;color:var(--c);font-weight:600}
+section{padding:96px 0;position:relative}
+h2{font-size:clamp(2rem,4.5vw,3rem);line-height:1.1;margin:.5rem 0 1rem}
+.lead{color:var(--mu);max-width:640px;font-size:1.05rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 1.6rem;border-radius:999px;font-weight:600;font-size:.95rem;transition:.3s;border:0;cursor:pointer;font-family:inherit}
+.btn-p{background:var(--g);color:#fff;box-shadow:0 10px 30px -10px rgba(180,77,255,.7)}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 16px 40px -10px rgba(180,77,255,.9)}
+.btn-o{border:1px solid var(--line);color:var(--tx);background:rgba(255,255,255,.03)}.btn-o:hover{border-color:var(--c)}
+/* nav */
+nav{position:fixed;inset:0 0 auto;z-index:50;transition:.3s}
+nav.s{background:rgba(7,8,26,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{font-size:1.5rem;font-weight:700;letter-spacing:.12em}.brand small{display:block;font-size:.5rem;letter-spacing:.4em;color:var(--mu);font-family:Inter;font-weight:500;margin-top:-4px}
+.links{display:flex;gap:2rem;font-size:.9rem;color:var(--mu)}.links a:hover{color:#fff}
+.b2b{font-size:.7rem;border:1px solid var(--line);padding:.3rem .7rem;border-radius:999px;color:var(--mu);margin-right:1rem}
+.burger{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
+@media(max-width:900px){.links{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;gap:0;background:rgba(7,8,26,.97);border-bottom:1px solid var(--line)}.links.o{display:flex}.links a{padding:1rem 4%;border-top:1px solid var(--line)}.burger{display:block}.navcta,.b2b{display:none}}
+/* hero */
+.hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 60px;overflow:hidden}
+.hero:before{content:"";position:absolute;width:900px;height:900px;right:-300px;top:-200px;background:radial-gradient(circle,rgba(138,92,255,.35),transparent 60%);filter:blur(20px)}
+.hero:after{content:"";position:absolute;width:700px;height:700px;left:-300px;bottom:-300px;background:radial-gradient(circle,rgba(63,216,255,.18),transparent 60%)}
+.hg{display:grid;grid-template-columns:1.05fr 1fr;gap:3rem;align-items:center;position:relative;z-index:2}
+.hero h1{font-size:clamp(2.6rem,6.2vw,4.8rem);line-height:1.02;margin:1rem 0 1.3rem}
+.hero .lead{font-size:1.15rem}.cta{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+.himg{border-radius:28px;overflow:hidden;border:1px solid var(--line);box-shadow:0 40px 120px -30px rgba(138,92,255,.6);animation:float 7s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px)}}
+.stats{display:flex;gap:2.2rem;margin-top:2.6rem;flex-wrap:wrap}.stats b{font-family:"Space Grotesk";font-size:1.7rem;display:block}.stats span{font-size:.8rem;color:var(--mu)}
+@media(max-width:900px){.hg{grid-template-columns:1fr}.hero{padding-top:100px}}
+/* cards */
+.grid{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:3rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1.8rem;transition:.35s}
+.card:hover{transform:translateY(-6px);border-color:rgba(138,92,255,.5);background:rgba(138,92,255,.07)}
+.ic{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(63,216,255,.2),rgba(255,92,200,.2));margin-bottom:1rem;font-size:1.3rem}
+.card h3{font-size:1.15rem;margin-bottom:.4rem}.card p{color:var(--mu);font-size:.93rem}
+/* product */
+.prod{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:center;margin-top:4rem}
+.prod.r .pi{order:2}.pi{border-radius:28px;overflow:hidden;border:1px solid var(--line)}
+.pi img{transition:transform 1s}.pi:hover img{transform:scale(1.04)}
+.tag{display:inline-block;font-size:.72rem;padding:.3rem .8rem;border-radius:999px;background:rgba(63,216,255,.12);color:var(--c);font-weight:600;letter-spacing:.1em}
+.prod h3{font-size:2.4rem;margin:.6rem 0 .3rem}.prod .sub{color:var(--mu);margin-bottom:1.4rem}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}.specs div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem}
+.specs small{display:block;color:var(--mu);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em}.specs b{font-size:1.05rem}
+.pvp{margin-top:1.3rem;display:flex;gap:1.5rem;align-items:baseline;flex-wrap:wrap}.pvp b{font-family:"Space Grotesk";font-size:1.9rem}.pvp span{color:var(--mu);font-size:.85rem}
+@media(max-width:900px){.prod{grid-template-columns:1fr;gap:1.8rem}.prod.r .pi{order:0}}
+/* flavors */
+.flav{border-radius:28px;overflow:hidden;border:1px solid var(--line);margin-top:3rem;background:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.8rem}.chips span{padding:.55rem 1.1rem;border-radius:999px;border:1px solid var(--line);font-size:.9rem;background:var(--card)}
+.chips i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:.5rem;vertical-align:middle}
+/* pricing */
+.tabs{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px;margin-top:2.5rem}
+.tabs button{background:none;border:0;color:var(--mu);padding:.7rem 1.6rem;border-radius:999px;font-weight:600;cursor:pointer;font-family:inherit;font-size:.95rem;transition:.3s}
+.tabs button.a{background:var(--g);color:#fff}
+.tiers{display:grid;grid-template-columns:repeat(6,1fr);gap:.8rem;margin-top:1.6rem}
+.tier{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.3rem 1rem;text-align:center;transition:.3s}
+.tier:hover{transform:translateY(-4px)}.tier small{color:var(--mu);font-size:.78rem;display:block}
+.tier b{font-family:"Space Grotesk";font-size:1.7rem;display:block;margin:.4rem 0}.tier em{font-style:normal;font-size:.75rem;color:var(--c)}
+.tier.best{background:linear-gradient(160deg,rgba(138,92,255,.35),rgba(255,92,200,.2));border-color:rgba(255,92,200,.5)}
+@media(max-width:1000px){.tiers{grid-template-columns:repeat(3,1fr)}}@media(max-width:560px){.tiers{grid-template-columns:repeat(2,1fr)}}
+.note{color:var(--mu);font-size:.82rem;margin-top:1.2rem}
+/* margin */
+.mg{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:3rem}
+.bar{height:14px;border-radius:999px;background:rgba(255,255,255,.08);overflow:hidden;margin:.5rem 0 1rem}
+.bar i{display:block;height:100%;background:var(--g);width:0;transition:width 1.4s cubic-bezier(.2,.8,.2,1)}
+.in .bar i{width:var(--w)}
+.row{display:flex;justify-content:space-between;font-size:.9rem;color:var(--mu)}.row b{color:#fff}
+.big{font-family:"Space Grotesk";font-size:3.2rem;line-height:1}
+@media(max-width:800px){.mg{grid-template-columns:1fr}}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:3rem;counter-reset:s}
+.step{counter-increment:s;position:relative}.step:before{content:"0" counter(s);font-family:"Space Grotesk";font-size:.85rem;color:var(--c);font-weight:700;display:block;margin-bottom:.6rem}
+@media(max-width:900px){.steps{grid-template-columns:1fr 1fr}}@media(max-width:520px){.steps{grid-template-columns:1fr}}
+.ops{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;margin-top:4rem}
+.ops ul{list-style:none}.ops li{padding:.9rem 0;border-bottom:1px solid var(--line);display:flex;gap:.8rem}.ops li:before{content:"✓";color:var(--c);font-weight:700}
+@media(max-width:900px){.ops{grid-template-columns:1fr}}
+/* contact */
+.ct{background:linear-gradient(140deg,rgba(63,216,255,.1),rgba(138,92,255,.15),rgba(255,92,200,.1));border:1px solid var(--line);border-radius:32px;padding:clamp(2rem,5vw,4rem);display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+form{display:grid;gap:.8rem}
+input,select,textarea{width:100%;background:rgba(7,8,26,.6);border:1px solid var(--line);color:var(--tx);padding:.9rem 1rem;border-radius:12px;font-family:inherit;font-size:.95rem}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--p)}
+.chk{display:flex;gap:.6rem;font-size:.82rem;color:var(--mu);align-items:flex-start}.chk input{width:auto;margin-top:4px}
+.msg{font-size:.88rem;color:var(--c);display:none;padding:.9rem;border:1px dashed var(--c);border-radius:12px}
+@media(max-width:900px){.ct{grid-template-columns:1fr}}
+footer{border-top:1px solid var(--line);padding:50px 0 40px;color:var(--mu);font-size:.85rem}
+.warn{border:1px solid rgba(255,255,255,.25);border-radius:14px;padding:1rem 1.2rem;color:#fff;font-weight:500;margin-bottom:1.5rem;background:rgba(255,255,255,.03)}
+.fr{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+/* reveal */
+.rv{opacity:0;transform:translateY(30px);transition:opacity .9s ease,transform .9s ease}.rv.in{opacity:1;transform:none}
+/* gate */
+#gate{position:fixed;inset:0;z-index:100;background:rgba(5,6,18,.94);backdrop-filter:blur(18px);display:grid;place-items:center;padding:1.5rem}
+#gate .box{max-width:440px;text-align:center;background:var(--bg2);border:1px solid var(--line);border-radius:26px;padding:2.6rem 2rem}
+#gate h2{font-size:1.7rem}#gate p{color:var(--mu);font-size:.9rem;margin-bottom:1.6rem}
+#gate .bt{display:flex;gap:.8rem;justify-content:center}
+#gate.hide{display:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style></head><body class="locked">
+<div id="gate" role="dialog" aria-modal="true"><div class="box" id="gbox">
+<div class="brand" style="margin-bottom:1rem">NØVA<small>FLAVOR BEYOND</small></div>
+<h2>¿Eres mayor de 18 años?</h2>
+<p>Este sitio contiene información de productos con nicotina, dirigida exclusivamente a comercios y mayoristas.</p>
+<div class="bt"><button class="btn btn-p" id="yes">Sí, soy mayor</button><button class="btn btn-o" id="no">No</button></div></div></div>
+
+<nav id="nav"><div class="wrap nav">
+<a href="#top" class="brand">NØVA<small>FLAVOR BEYOND</small></a>
+<div class="links" id="links"><a href="#porque">Por qué NØVA</a><a href="#productos">Productos</a><a href="#sabores">Sabores</a><a href="#tarifario">Tarifario</a><a href="#margen">Margen</a><a href="#proceso">Cómo trabajamos</a></div>
+<div style="display:flex;align-items:center"><span class="b2b">Solo comercios · +18</span><a href="#contacto" class="btn btn-p navcta" style="padding:.6rem 1.2rem">Solicitar cotización</a><button class="burger" id="bur" aria-label="Menú">☰</button></div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap hg">
+<div class="rv"><span class="eyebrow">Distribución mayorista · Ecuador 2026</span>
+<h1>Flavor <span class="grad">Beyond.</span><br>Para tu punto de venta.</h1>
+<p class="lead">NØVA es una marca privada de dispositivos electrónicos de administración de nicotina, pensada para el mercado ecuatoriano y distribuida a través de retailers autorizados.</p>
+<div class="cta"><a href="#tarifario" class="btn btn-p">Ver tarifario mayorista →</a><a href="#contacto" class="btn btn-o">Solicitar cotización</a></div>
+<div class="stats"><div><b class="grad">≈35%</b><span>Margen retailer ref.</span></div><div><b>2</b><span>Modelos de lanzamiento</span></div><div><b>6</b><span>Sabores premium</span></div><div><b>OEM</b><span>Fabricación certificada</span></div></div></div>
+<div class="himg rv"><img src="assets/hero.jpg" alt="NØVA PRO y NØVA MINI" width="1380" height="1180"></div>
+</div></header>
+
+<section id="porque"><div class="wrap">
+<div class="rv"><span class="eyebrow">Por qué NØVA</span><h2>Un portafolio pensado para <span class="grad">rotar en tu tienda</span></h2><p class="lead">Línea moderna, confiable y competitiva, con condiciones claras para el canal mayorista y retail.</p></div>
+<div class="grid">
+<div class="card rv"><div class="ic">◈</div><h3>Margen atractivo</h3><p>Margen estimado de referencia cercano al 35% sobre el PVP sugerido.</p></div>
+<div class="card rv"><div class="ic">▤</div><h3>Mejores condiciones por volumen</h3><p>Escalas de precio desde 100 unidades, con descuentos de hasta 12,3% vs. base.</p></div>
+<div class="card rv"><div class="ic">⬡</div><h3>Stock local</h3><p>Abastecimiento constante y reposición continua desde inventario en Ecuador.</p></div>
+<div class="card rv"><div class="ic">✦</div><h3>Calidad OEM certificada</h3><p>Abastecimiento directo del fabricante, control de calidad y trazabilidad de lotes.</p></div>
+<div class="card rv"><div class="ic">⛨</div><h3>Cumplimiento</h3><p>Alineado a la normativa sanitaria y tributaria vigente, con etiquetado y advertencias.</p></div>
+<div class="card rv"><div class="ic">↻</div><h3>Garantías</h3><p>Gestión de garantías y manejo de productos defectuosos.</p></div>
+</div></div></section>
+
+<section id="productos" style="background:linear-gradient(180deg,transparent,var(--bg2),transparent)"><div class="wrap">
+<div class="rv"><span class="eyebrow">Portafolio inicial</span><h2>Dos modelos, <span class="grad">dos perfiles de consumo</span></h2></div>
+<div class="prod rv"><div class="pi"><img src="assets/mini.jpg" alt="NØVA MINI" loading="lazy" width="1000" height="1610"></div>
+<div><span class="tag">COMPACTO · PRÁCTICO</span><h3>NØVA <span class="grad">MINI</span></h3><p class="sub">El formato ideal para el día a día. Diseño ultra delgado, ligero y portátil.</p>
+<div class="specs"><div><small>Caladas estimadas</small><b>1.000</b></div><div><small>E-liquid</small><b>2,0 ml · 5% (50 mg/ml)</b></div><div><small>Batería</small><b>400 mAh · USB-C</b></div><div><small>Resistencia</small><b>Malla 1,6 Ω</b></div><div><small>Tipo</small><b>Desechable</b></div><div><small>Dimensiones</small><b>16,8 × 16,8 × 103,7 mm</b></div></div>
+<div class="pvp"><div><span>PVP sugerido</span><br><b>$6,50</b> <span>IVA incl.</span></div><div><span>Mayorista desde</span><br><b class="grad">$3,49</b> <span>sin IVA</span></div></div></div></div>
+<div class="prod r rv"><div class="pi"><img src="assets/pro.jpg" alt="NØVA PRO" loading="lazy" width="1200" height="1610"></div>
+<div><span class="tag">MAYOR CAPACIDAD · DURACIÓN</span><h3>NØVA <span class="grad">PRO</span></h3><p class="sub">Máxima capacidad y mayor duración, con sabor intenso y consistente.</p>
+<div class="specs"><div><small>Caladas estimadas</small><b>Hasta 30.000</b></div><div><small>E-liquid</small><b>18,0 ml · 5% (50 mg/ml)</b></div><div><small>Batería</small><b>500 mAh · USB-C</b></div><div><small>Resistencia</small><b>Malla 1,6 Ω</b></div><div><small>Tipo</small><b>Desechable</b></div><div><small>Formato</small><b>Compacto y portátil</b></div></div>
+<div class="pvp"><div><span>PVP sugerido</span><br><b>$20,00</b> <span>IVA incl.</span></div><div><span>Mayorista desde</span><br><b class="grad">$10,70</b> <span>sin IVA</span></div></div></div></div>
+</div></section>
+
+<section id="sabores"><div class="wrap">
+<div class="rv"><span class="eyebrow">Sabores disponibles</span><h2>Seis sabores, <span class="grad">ambos modelos</span></h2><p class="lead">El mismo portafolio de sabores en NØVA PRO y NØVA MINI para simplificar tu exhibición y reposición.</p>
+<div class="chips"><span><i style="background:#5fe3e8"></i>Ice Mint</span><span><i style="background:#4b63ff"></i>Blueberry</span><span><i style="background:#ff4d6d"></i>Watermelon</span><span><i style="background:#ffb238"></i>Mango</span><span><i style="background:#ff5cc8"></i>Strawberry</span><span><i style="background:#9b5cff"></i>Grape</span></div></div>
+<div class="flav rv"><img src="assets/sabores.jpg" alt="Sabores NØVA PRO y MINI" loading="lazy" width="1600" height="887"></div>
+</div></section>
+
+<section id="tarifario" style="background:linear-gradient(180deg,transparent,var(--bg2),transparent)"><div class="wrap">
+<div class="rv"><span class="eyebrow">Tarifario mayorista</span><h2>Mejor precio <span class="grad">a mayor volumen</span></h2><p class="lead">Precio unitario por escala de compra. Valores sin IVA.</p>
+<div class="tabs"><button class="a" data-p="mini">NØVA MINI</button><button data-p="pro">NØVA PRO</button></div></div>
+<div class="tiers rv" id="tiers"></div>
+<p class="note">Precios unitarios sin IVA · PVP sugerido con IVA incluido. <strong>Precios referenciales sujetos a confirmación.</strong></p>
+</div></section>
+
+<section id="margen"><div class="wrap">
+<div class="rv"><span class="eyebrow">Margen para tu tienda</span><h2>Economía <span class="grad">para el retailer</span></h2><p class="lead">Ejemplo de referencia con la escala 2.500–4.999 unidades.</p></div>
+<div class="mg">
+<div class="card rv"><h3>NØVA MINI</h3><div class="big grad" style="margin:.8rem 0">≈35%</div><p>$1,98 por unidad</p><br>
+<div class="row"><span>PVP sugerido (IVA incl.)</span><b>$6,50</b></div><div class="bar"><i style="--w:100%"></i></div>
+<div class="row"><span>Precio mayorista (sin IVA)</span><b>$3,67</b></div><div class="bar"><i style="--w:56%"></i></div></div>
+<div class="card rv"><h3>NØVA PRO</h3><div class="big grad" style="margin:.8rem 0">≈35%</div><p>$6,09 por unidad</p><br>
+<div class="row"><span>PVP sugerido (IVA incl.)</span><b>$20,00</b></div><div class="bar"><i style="--w:100%"></i></div>
+<div class="row"><span>Precio mayorista (sin IVA)</span><b>$11,30</b></div><div class="bar"><i style="--w:56.5%"></i></div></div>
+</div><p class="note">Márgenes estimados de referencia según presentación comercial NØVA. El margen real depende del precio final y la carga tributaria aplicable.</p>
+</div></section>
+
+<section id="proceso" style="background:linear-gradient(180deg,transparent,var(--bg2),transparent)"><div class="wrap">
+<div class="rv"><span class="eyebrow">Cómo trabajamos</span><h2>Del pedido <span class="grad">a tu anaquel</span></h2></div>
+<div class="steps">
+<div class="card step rv"><h3>Revisión del portafolio</h3><p>Conoce modelos, sabores y escalas de precio.</p></div>
+<div class="card step rv"><h3>Evaluación regulatoria</h3><p>Validamos requisitos para comercializar en tu punto de venta.</p></div>
+<div class="card step rv"><h3>Condiciones comerciales</h3><p>Definimos volumen, escala y condiciones de tu pedido.</p></div>
+<div class="card step rv"><h3>Inicio del suministro</h3><p>Despacho desde stock local y reposición continua.</p></div>
+</div>
+<div class="ops"><div class="pi rv" style="border-radius:28px;overflow:hidden;border:1px solid var(--line)"><img src="assets/operacion.jpg" alt="Suministro NØVA" loading="lazy" width="1475" height="1026"></div>
+<div class="rv"><h3 style="font-size:1.6rem;margin-bottom:1rem">Modelo de suministro y operación</h3><ul>
+<li>Abastecimiento directo desde el fabricante OEM.</li><li>Importación y nacionalización en cumplimiento con la normativa vigente.</li><li>Stock local y reposición continua.</li><li>Control de calidad y trazabilidad de lotes.</li><li>Permisos y registros requeridos para importación y comercialización.</li><li>Venta exclusiva a mayores de 18 años.</li></ul></div></div>
+</div></section>
+
+<section id="contacto"><div class="wrap"><div class="ct rv">
+<div><span class="eyebrow">Solo comercios · mayoristas</span><h2>Solicita tu <span class="grad">cotización</span></h2><p class="lead">Buscamos relaciones de largo plazo con retailers y distribuidores estratégicos en Ecuador.</p>
+<p class="note" style="margin-top:1.5rem">Contacto en configuración.</p></div>
+<form id="f"><input required name="n" placeholder="Nombre y apellido"><input required name="e" placeholder="Razón social / nombre del comercio"><input name="r" placeholder="RUC"><input name="c" placeholder="Ciudad">
+<select name="v"><option>Volumen estimado</option><option>100 – 499 u.</option><option>500 – 999 u.</option><option>1.000 – 2.499 u.</option><option>2.500 – 4.999 u.</option><option>5.000 – 9.999 u.</option><option>10.000+ u.</option></select>
+<label class="chk"><input type="checkbox" required> Declaro que represento a un comercio y que soy mayor de 18 años.</label>
+<button class="btn btn-p" type="submit">Solicitar cotización</button>
+<div class="msg" id="msg">Gracias. El canal de contacto comercial está en configuración; pronto habilitaremos el envío de solicitudes.</div></form>
+</div></div></section>
+
+<footer><div class="wrap">
+<div class="warn">⚠ Producto con nicotina. Venta exclusiva a mayores de 18 años. La nicotina es una sustancia adictiva.</div>
+<div class="fr"><div class="brand" style="font-size:1.2rem">NØVA<small>FLAVOR BEYOND</small></div><div>Sitio exclusivo para comercios y mayoristas · Ecuador © 2026 NØVA™</div></div>
+</div></footer>
+
+<script>
+const g=document.getElementById('gate');
+if(localStorage.getItem('nova18')==='1'){g.classList.add('hide');document.body.classList.remove('locked')}
+yes.onclick=()=>{localStorage.setItem('nova18','1');g.classList.add('hide');document.body.classList.remove('locked')};
+no.onclick=()=>{gbox.innerHTML='<div class="brand">NØVA</div><h2 style="margin-top:1rem">Acceso restringido</h2><p>Este sitio es exclusivo para mayores de 18 años y comercios autorizados.</p>'};
+const nav=document.getElementById('nav');addEventListener('scroll',()=>nav.classList.toggle('s',scrollY>30));
+bur.onclick=()=>links.classList.toggle('o');links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('o'));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+const P={mini:[['100 – 499','3,96','—'],['500 – 999','3,86','2,5%'],['1.000 – 2.499','3,76','5,0%'],['2.500 – 4.999','3,67','7,5%'],['5.000 – 9.999','3,58','9,5%'],['10.000+','3,49','12,0%']],
+pro:[['100 – 499','12,20','—'],['500 – 999','11,90','2,5%'],['1.000 – 2.499','11,60','5,0%'],['2.500 – 4.999','11,30','7,5%'],['5.000 – 9.999','11,00','9,8%'],['10.000+','10,70','12,3%']]};
+function draw(k){tiers.innerHTML=P[k].map((t,i)=>`<div class="tier${i==5?' best':''}"><small>${t[0]} unidades</small><b>$${t[1]}</b><em>${t[2]=='—'?'Precio base':'−'+t[2]+' vs. base'}</em></div>`).join('')}
+draw('mini');document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('a'));b.classList.add('a');draw(b.dataset.p)});
+f.onsubmit=e=>{e.preventDefault();msg.style.display='block'};
+</script></body></html>
